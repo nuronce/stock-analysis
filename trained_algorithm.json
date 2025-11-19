@@ -1,0 +1,714 @@
+{
+  "AAPL": {
+    "recent_trend_20d": 3.578739695873434,
+    "annual_volatility": 0.16025699501022556,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 1.8594634187324315,
+    "win_rate": 53.333333333333336,
+    "current_price": 267.44000244140625
+  },
+  "ABBV": {
+    "recent_trend_20d": 2.269548105489294,
+    "annual_volatility": 0.279449593024035,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 1.9062971514339886,
+    "win_rate": 53.333333333333336,
+    "current_price": 233.8699951171875
+  },
+  "ABT": {
+    "recent_trend_20d": 1.6021907781577083,
+    "annual_volatility": 0.14049776542758372,
+    "in_uptrend": false,
+    "avg_daily_range_pct": 1.8362815383201851,
+    "win_rate": 53.333333333333336,
+    "current_price": 130.0
+  },
+  "ADBE": {
+    "recent_trend_20d": -8.365103624368587,
+    "annual_volatility": 0.2615728489734385,
+    "in_uptrend": false,
+    "avg_daily_range_pct": 2.497328387933781,
+    "win_rate": 48.333333333333336,
+    "current_price": 324.4700012207031
+  },
+  "AMD": {
+    "recent_trend_20d": 0.02605983568915171,
+    "annual_volatility": 0.6596639101491699,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 4.3936560656578285,
+    "win_rate": 50.0,
+    "current_price": 230.2899932861328
+  },
+  "AMGN": {
+    "recent_trend_20d": 16.220682973846003,
+    "annual_volatility": 0.34588222246018235,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 2.241705617873861,
+    "win_rate": 51.66666666666667,
+    "current_price": 343.989990234375
+  },
+  "AMP": {
+    "recent_trend_20d": -6.007239451675572,
+    "annual_volatility": 0.2721546596392271,
+    "in_uptrend": false,
+    "avg_daily_range_pct": 2.061906972287292,
+    "win_rate": 50.0,
+    "current_price": 442.80999755859375
+  },
+  "AMZN": {
+    "recent_trend_20d": 2.1105786501148804,
+    "annual_volatility": 0.48337304710703316,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 2.1766248994098,
+    "win_rate": 46.666666666666664,
+    "current_price": 222.5500030517578
+  },
+  "AXP": {
+    "recent_trend_20d": -3.2215898687189326,
+    "annual_volatility": 0.21915745950110443,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 2.215812512688071,
+    "win_rate": 51.66666666666667,
+    "current_price": 340.6600036621094
+  },
+  "BA": {
+    "recent_trend_20d": -12.447477681757412,
+    "annual_volatility": 0.30948963730534323,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 2.164472401552433,
+    "win_rate": 35.0,
+    "current_price": 189.6300048828125
+  },
+  "BAC": {
+    "recent_trend_20d": 1.0567532909043331,
+    "annual_volatility": 0.1834014109753741,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 1.88486563850222,
+    "win_rate": 51.66666666666667,
+    "current_price": 51.63999938964844
+  },
+  "BDX": {
+    "recent_trend_20d": 2.2433688836376087,
+    "annual_volatility": 0.22172965973712175,
+    "in_uptrend": false,
+    "avg_daily_range_pct": 2.125831257146588,
+    "win_rate": 55.00000000000001,
+    "current_price": 192.3300018310547
+  },
+  "BLK": {
+    "recent_trend_20d": -9.78507487136574,
+    "annual_volatility": 0.19018671776504495,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 1.9503070518236014,
+    "win_rate": 35.0,
+    "current_price": 1019.1400146484375
+  },
+  "CAT": {
+    "recent_trend_20d": 6.4155267383785075,
+    "annual_volatility": 0.5049294205698179,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 2.488489579329428,
+    "win_rate": 55.00000000000001,
+    "current_price": 546.8800048828125
+  },
+  "CB": {
+    "recent_trend_20d": 7.250838676098592,
+    "annual_volatility": 0.1905613173629779,
+    "in_uptrend": false,
+    "avg_daily_range_pct": 1.4435923120483558,
+    "win_rate": 56.666666666666664,
+    "current_price": 296.57000732421875
+  },
+  "CDNS": {
+    "recent_trend_20d": -8.259967173129246,
+    "annual_volatility": 0.24814826453503952,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 2.667654462608466,
+    "win_rate": 51.66666666666667,
+    "current_price": 303.2099914550781
+  },
+  "CMCSA": {
+    "recent_trend_20d": -6.938772226693968,
+    "annual_volatility": 0.2780495953611056,
+    "in_uptrend": false,
+    "avg_daily_range_pct": 2.232707769620708,
+    "win_rate": 38.333333333333336,
+    "current_price": 27.360000610351562
+  },
+  "CME": {
+    "recent_trend_20d": 4.282887616319719,
+    "annual_volatility": 0.17007693475197835,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 1.8427526592503143,
+    "win_rate": 56.666666666666664,
+    "current_price": 279.2799987792969
+  },
+  "COP": {
+    "recent_trend_20d": 3.5489120725432866,
+    "annual_volatility": 0.26839157836441335,
+    "in_uptrend": false,
+    "avg_daily_range_pct": 2.2936417884118727,
+    "win_rate": 51.66666666666667,
+    "current_price": 89.68000030517578
+  },
+  "COST": {
+    "recent_trend_20d": -5.11640603370741,
+    "annual_volatility": 0.1562347396009923,
+    "in_uptrend": false,
+    "avg_daily_range_pct": 1.427786121619017,
+    "win_rate": 46.666666666666664,
+    "current_price": 895.0800170898438
+  },
+  "CRM": {
+    "recent_trend_20d": -9.016526390140767,
+    "annual_volatility": 0.28850941684046666,
+    "in_uptrend": false,
+    "avg_daily_range_pct": 2.823500084371015,
+    "win_rate": 53.333333333333336,
+    "current_price": 233.5
+  },
+  "CRWD": {
+    "recent_trend_20d": 2.711403082476238,
+    "annual_volatility": 0.33699038177629836,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 3.187493970374957,
+    "win_rate": 55.00000000000001,
+    "current_price": 513.6699829101562
+  },
+  "CVX": {
+    "recent_trend_20d": -0.15061253660432206,
+    "annual_volatility": 0.2003946243536718,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 1.6539001451903865,
+    "win_rate": 48.333333333333336,
+    "current_price": 153.6199951171875
+  },
+  "DDOG": {
+    "recent_trend_20d": 14.42837626048763,
+    "annual_volatility": 0.8954317630848901,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 3.531498184096249,
+    "win_rate": 46.666666666666664,
+    "current_price": 176.4600067138672
+  },
+  "DE": {
+    "recent_trend_20d": 2.485081130716038,
+    "annual_volatility": 0.18133131385402987,
+    "in_uptrend": false,
+    "avg_daily_range_pct": 2.059668400591983,
+    "win_rate": 46.666666666666664,
+    "current_price": 473.8500061035156
+  },
+  "DIS": {
+    "recent_trend_20d": -6.013444412494129,
+    "annual_volatility": 0.3242019527654836,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 1.8494082124309135,
+    "win_rate": 50.0,
+    "current_price": 106.27999877929688
+  },
+  "DUK": {
+    "recent_trend_20d": -3.2193392484673566,
+    "annual_volatility": 0.1295557370370099,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 1.330857473520774,
+    "win_rate": 53.333333333333336,
+    "current_price": 123.80000305175781
+  },
+  "DXCM": {
+    "recent_trend_20d": -14.89391687952355,
+    "annual_volatility": 0.663222586487712,
+    "in_uptrend": false,
+    "avg_daily_range_pct": 3.7493520570401926,
+    "win_rate": 50.0,
+    "current_price": 60.16999816894531
+  },
+  "FOX": {
+    "recent_trend_20d": 11.487899764671926,
+    "annual_volatility": 0.34956401886137134,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 2.3868190607546724,
+    "win_rate": 58.333333333333336,
+    "current_price": 58.52000045776367
+  },
+  "GE": {
+    "recent_trend_20d": -0.6311070497046489,
+    "annual_volatility": 0.23563403063172073,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 2.396094489023228,
+    "win_rate": 53.333333333333336,
+    "current_price": 296.010009765625
+  },
+  "GILD": {
+    "recent_trend_20d": 4.709370380222877,
+    "annual_volatility": 0.2647340441578823,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 2.512353364870692,
+    "win_rate": 53.333333333333336,
+    "current_price": 127.18000030517578
+  },
+  "GOOGL": {
+    "recent_trend_20d": 12.948466773318735,
+    "annual_volatility": 0.32438012502761643,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 2.386768437133041,
+    "win_rate": 58.333333333333336,
+    "current_price": 284.2799987792969
+  },
+  "GS": {
+    "recent_trend_20d": 4.2573211451002235,
+    "annual_volatility": 0.2993570194696643,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 2.3601338334872937,
+    "win_rate": 58.333333333333336,
+    "current_price": 776.2999877929688
+  },
+  "HD": {
+    "recent_trend_20d": -13.494611427525482,
+    "annual_volatility": 0.2494256406476918,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 1.6198277770993421,
+    "win_rate": 41.66666666666667,
+    "current_price": 336.4800109863281
+  },
+  "HON": {
+    "recent_trend_20d": -1.0962220910357923,
+    "annual_volatility": 0.310620346942862,
+    "in_uptrend": false,
+    "avg_daily_range_pct": 1.7318188727617596,
+    "win_rate": 35.0,
+    "current_price": 191.4499969482422
+  },
+  "INTC": {
+    "recent_trend_20d": -7.015158359539575,
+    "annual_volatility": 0.47147094646063376,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 4.392775165824127,
+    "win_rate": 43.333333333333336,
+    "current_price": 34.33000183105469
+  },
+  "INTU": {
+    "recent_trend_20d": -3.1366993827785072,
+    "annual_volatility": 0.22341442043316764,
+    "in_uptrend": false,
+    "avg_daily_range_pct": 2.1013688894722327,
+    "win_rate": 53.333333333333336,
+    "current_price": 649.72998046875
+  },
+  "ISRG": {
+    "recent_trend_20d": 3.7455152718167906,
+    "annual_volatility": 0.5605042097502363,
+    "in_uptrend": false,
+    "avg_daily_range_pct": 2.500424759554337,
+    "win_rate": 48.333333333333336,
+    "current_price": 546.77001953125
+  },
+  "ITT": {
+    "recent_trend_20d": 5.672311136833796,
+    "annual_volatility": 0.46961236691963854,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 2.4480990126285973,
+    "win_rate": 50.0,
+    "current_price": 182.00999450683594
+  },
+  "JNJ": {
+    "recent_trend_20d": 3.6591673417946557,
+    "annual_volatility": 0.16778409402148498,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 1.4457496845740783,
+    "win_rate": 66.66666666666666,
+    "current_price": 200.0
+  },
+  "JPM": {
+    "recent_trend_20d": 1.80205316871902,
+    "annual_volatility": 0.19819231274241356,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 1.9188017706378535,
+    "win_rate": 53.333333333333336,
+    "current_price": 299.4100036621094
+  },
+  "KO": {
+    "recent_trend_20d": 0.579019455226093,
+    "annual_volatility": 0.16997371877209386,
+    "in_uptrend": false,
+    "avg_daily_range_pct": 1.2832855938244137,
+    "win_rate": 56.666666666666664,
+    "current_price": 71.22000122070312
+  },
+  "LLY": {
+    "recent_trend_20d": 26.97251660160798,
+    "annual_volatility": 0.26096845627425475,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 2.7346814628115648,
+    "win_rate": 66.66666666666666,
+    "current_price": 1030.050048828125
+  },
+  "LMT": {
+    "recent_trend_20d": -2.549577750597587,
+    "annual_volatility": 0.17794109817295253,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 1.7702962485859683,
+    "win_rate": 51.66666666666667,
+    "current_price": 474.7200012207031
+  },
+  "LOW": {
+    "recent_trend_20d": -9.83862011874449,
+    "annual_volatility": 0.1630646468318584,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 1.704822401848564,
+    "win_rate": 50.0,
+    "current_price": 219.57000732421875
+  },
+  "MA": {
+    "recent_trend_20d": -7.662414131920803,
+    "annual_volatility": 0.15521602191169584,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 1.7589765806516213,
+    "win_rate": 51.66666666666667,
+    "current_price": 527.5800170898438
+  },
+  "MCD": {
+    "recent_trend_20d": -1.7800100849426181,
+    "annual_volatility": 0.19191131174078657,
+    "in_uptrend": false,
+    "avg_daily_range_pct": 1.398321487150949,
+    "win_rate": 50.0,
+    "current_price": 304.5899963378906
+  },
+  "META": {
+    "recent_trend_20d": -18.505334761295778,
+    "annual_volatility": 0.44314609755268075,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 2.258577781487674,
+    "win_rate": 43.333333333333336,
+    "current_price": 597.6900024414062
+  },
+  "MKL": {
+    "recent_trend_20d": 8.808995237751361,
+    "annual_volatility": 0.2772471382623729,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 1.6302419898680793,
+    "win_rate": 48.333333333333336,
+    "current_price": 2052.659912109375
+  },
+  "MMC": {
+    "recent_trend_20d": -4.785799839118143,
+    "annual_volatility": 0.19271687100241325,
+    "in_uptrend": false,
+    "avg_daily_range_pct": 1.6665412121082346,
+    "win_rate": 48.333333333333336,
+    "current_price": 180.25
+  },
+  "MPC": {
+    "recent_trend_20d": 5.871437211424224,
+    "annual_volatility": 0.37377112788346706,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 2.5237664528978305,
+    "win_rate": 53.333333333333336,
+    "current_price": 199.61000061035156
+  },
+  "MRK": {
+    "recent_trend_20d": 10.067343492042035,
+    "annual_volatility": 0.2859487287586244,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 2.313023918286802,
+    "win_rate": 48.333333333333336,
+    "current_price": 96.43000030517578
+  },
+  "MS": {
+    "recent_trend_20d": 1.6968308658535491,
+    "annual_volatility": 0.2214048735102887,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 2.0997393412163086,
+    "win_rate": 61.66666666666667,
+    "current_price": 159.8300018310547
+  },
+  "MSFT": {
+    "recent_trend_20d": -5.138888579469825,
+    "annual_volatility": 0.22612700030231483,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 1.613427418884179,
+    "win_rate": 45.0,
+    "current_price": 493.7900085449219
+  },
+  "NEE": {
+    "recent_trend_20d": 2.1728671310123016,
+    "annual_volatility": 0.23239440409088158,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 2.1298414065314373,
+    "win_rate": 55.00000000000001,
+    "current_price": 84.63999938964844
+  },
+  "NFLX": {
+    "recent_trend_20d": 2.197295948022493,
+    "annual_volatility": 0.4432273311426224,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 2.2863309720994924,
+    "win_rate": 51.66666666666667,
+    "current_price": 114.08999633789062
+  },
+  "NKE": {
+    "recent_trend_20d": -9.539664125523196,
+    "annual_volatility": 0.30211583748066506,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 2.4624145296580124,
+    "win_rate": 30.0,
+    "current_price": 62.4900016784668
+  },
+  "NOW": {
+    "recent_trend_20d": -12.577358054859555,
+    "annual_volatility": 0.2269775818343965,
+    "in_uptrend": false,
+    "avg_daily_range_pct": 2.8156716085561113,
+    "win_rate": 41.66666666666667,
+    "current_price": 817.969970703125
+  },
+  "NVDA": {
+    "recent_trend_20d": 0.5990691359926359,
+    "annual_volatility": 0.4586849724312303,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 2.920246833877199,
+    "win_rate": 48.333333333333336,
+    "current_price": 181.36000061035156
+  },
+  "OKTA": {
+    "recent_trend_20d": -6.904873705209635,
+    "annual_volatility": 0.2959768755585625,
+    "in_uptrend": false,
+    "avg_daily_range_pct": 3.06049920218466,
+    "win_rate": 51.66666666666667,
+    "current_price": 81.02999877929688
+  },
+  "PCTY": {
+    "recent_trend_20d": -4.651922795223895,
+    "annual_volatility": 0.3775921646469107,
+    "in_uptrend": false,
+    "avg_daily_range_pct": 2.5424988323277313,
+    "win_rate": 33.33333333333333,
+    "current_price": 144.91000366210938
+  },
+  "PEP": {
+    "recent_trend_20d": -2.7837643212555996,
+    "annual_volatility": 0.1767761647456133,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 1.7448161152599604,
+    "win_rate": 48.333333333333336,
+    "current_price": 148.77000427246094
+  },
+  "PFE": {
+    "recent_trend_20d": 4.765927810909676,
+    "annual_volatility": 0.23527335414835493,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 2.1873500866816347,
+    "win_rate": 46.666666666666664,
+    "current_price": 25.450000762939453
+  },
+  "PG": {
+    "recent_trend_20d": -2.7477680662658543,
+    "annual_volatility": 0.1469880410533314,
+    "in_uptrend": false,
+    "avg_daily_range_pct": 1.399895885493884,
+    "win_rate": 50.0,
+    "current_price": 146.99000549316406
+  },
+  "PSX": {
+    "recent_trend_20d": 6.230567428454115,
+    "annual_volatility": 0.2744351404206334,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 2.5545062976803368,
+    "win_rate": 55.00000000000001,
+    "current_price": 138.41000366210938
+  },
+  "QCOM": {
+    "recent_trend_20d": -2.4871546095613373,
+    "annual_volatility": 0.536445862735422,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 2.9448267315065766,
+    "win_rate": 55.00000000000001,
+    "current_price": 165.05999755859375
+  },
+  "RTX": {
+    "recent_trend_20d": -1.8316634369552998,
+    "annual_volatility": 0.1742845310791935,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 1.8152385633053867,
+    "win_rate": 48.333333333333336,
+    "current_price": 174.72000122070312
+  },
+  "SBUX": {
+    "recent_trend_20d": -1.8339021819971157,
+    "annual_volatility": 0.29540843821084695,
+    "in_uptrend": false,
+    "avg_daily_range_pct": 2.380728933309471,
+    "win_rate": 41.66666666666667,
+    "current_price": 83.33000183105469
+  },
+  "SCHW": {
+    "recent_trend_20d": -1.8746430425752858,
+    "annual_volatility": 0.1755965604215037,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 2.077616422024838,
+    "win_rate": 53.333333333333336,
+    "current_price": 92.27999877929688
+  },
+  "SLB": {
+    "recent_trend_20d": 3.2664737530258003,
+    "annual_volatility": 0.33628178374394396,
+    "in_uptrend": false,
+    "avg_daily_range_pct": 2.8213006085652395,
+    "win_rate": 48.333333333333336,
+    "current_price": 36.040000915527344
+  },
+  "SNPS": {
+    "recent_trend_20d": -15.513973665539426,
+    "annual_volatility": 0.32058709943892766,
+    "in_uptrend": false,
+    "avg_daily_range_pct": 3.7447775935231773,
+    "win_rate": 51.66666666666667,
+    "current_price": 383.82000732421875
+  },
+  "SO": {
+    "recent_trend_20d": -6.200158388415233,
+    "annual_volatility": 0.1358090816733228,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 1.3244439877139207,
+    "win_rate": 48.333333333333336,
+    "current_price": 90.69000244140625
+  },
+  "SPGI": {
+    "recent_trend_20d": 2.1970252135479873,
+    "annual_volatility": 0.26910720108953184,
+    "in_uptrend": false,
+    "avg_daily_range_pct": 1.7947437710316427,
+    "win_rate": 40.0,
+    "current_price": 490.2799987792969
+  },
+  "SSNC": {
+    "recent_trend_20d": -0.8653341711874263,
+    "annual_volatility": 0.25250569284538227,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 1.8952700411708217,
+    "win_rate": 43.333333333333336,
+    "current_price": 81.33999633789062
+  },
+  "T": {
+    "recent_trend_20d": 0.1956992011829639,
+    "annual_volatility": 0.2321299027554661,
+    "in_uptrend": false,
+    "avg_daily_range_pct": 1.8985962813610893,
+    "win_rate": 53.333333333333336,
+    "current_price": 25.600000381469727
+  },
+  "TJX": {
+    "recent_trend_20d": 2.055304816587822,
+    "annual_volatility": 0.13651031364545127,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 1.4585122370926613,
+    "win_rate": 60.0,
+    "current_price": 145.5800018310547
+  },
+  "TM": {
+    "recent_trend_20d": -3.7098855077189574,
+    "annual_volatility": 0.22015092818152604,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 0.984522279098508,
+    "win_rate": 56.666666666666664,
+    "current_price": 195.9600067138672
+  },
+  "TMO": {
+    "recent_trend_20d": 1.5567730782454214,
+    "annual_volatility": 0.17937417791270033,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 2.501451948283069,
+    "win_rate": 55.00000000000001,
+    "current_price": 576.030029296875
+  },
+  "TSLA": {
+    "recent_trend_20d": -8.592842589655337,
+    "annual_volatility": 0.5333466076696716,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 4.228127375029307,
+    "win_rate": 53.333333333333336,
+    "current_price": 401.25
+  },
+  "ULTA": {
+    "recent_trend_20d": -2.3029714399480206,
+    "annual_volatility": 0.2496269359402757,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 2.6810346509024843,
+    "win_rate": 48.333333333333336,
+    "current_price": 507.3699951171875
+  },
+  "UNH": {
+    "recent_trend_20d": -13.25348002887895,
+    "annual_volatility": 0.28059360369318626,
+    "in_uptrend": false,
+    "avg_daily_range_pct": 2.7489677120710434,
+    "win_rate": 60.0,
+    "current_price": 313.5799865722656
+  },
+  "V": {
+    "recent_trend_20d": -6.817175686606724,
+    "annual_volatility": 0.14353830900119302,
+    "in_uptrend": false,
+    "avg_daily_range_pct": 1.7090435976690865,
+    "win_rate": 41.66666666666667,
+    "current_price": 321.17999267578125
+  },
+  "VEEV": {
+    "recent_trend_20d": -5.594261255475097,
+    "annual_volatility": 0.2616903004462262,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 2.561891886407077,
+    "win_rate": 51.66666666666667,
+    "current_price": 273.7200012207031
+  },
+  "VRSN": {
+    "recent_trend_20d": -0.610996478562631,
+    "annual_volatility": 0.3136918120852173,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 2.3773493870771927,
+    "win_rate": 56.666666666666664,
+    "current_price": 249.6300048828125
+  },
+  "VZ": {
+    "recent_trend_20d": 4.22110637532731,
+    "annual_volatility": 0.23936706273566022,
+    "in_uptrend": false,
+    "avg_daily_range_pct": 1.5803010316037285,
+    "win_rate": 46.666666666666664,
+    "current_price": 41.47999954223633
+  },
+  "WDAY": {
+    "recent_trend_20d": -7.079027431448082,
+    "annual_volatility": 0.26246456631362025,
+    "in_uptrend": false,
+    "avg_daily_range_pct": 2.7359241442867455,
+    "win_rate": 48.333333333333336,
+    "current_price": 225.63999938964844
+  },
+  "WFC": {
+    "recent_trend_20d": 0.5018004781464303,
+    "annual_volatility": 0.15772915904093796,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 2.3502172759515103,
+    "win_rate": 51.66666666666667,
+    "current_price": 83.86000061035156
+  },
+  "WMT": {
+    "recent_trend_20d": -5.366809812167639,
+    "annual_volatility": 0.12735430546876747,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 1.6945181614198743,
+    "win_rate": 60.0,
+    "current_price": 101.38999938964844
+  },
+  "XOM": {
+    "recent_trend_20d": 4.673616773864064,
+    "annual_volatility": 0.17667549204400582,
+    "in_uptrend": true,
+    "avg_daily_range_pct": 1.6526349229423813,
+    "win_rate": 58.333333333333336,
+    "current_price": 119.02999877929688
+  }
+}
