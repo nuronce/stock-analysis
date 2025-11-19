@@ -15,6 +15,7 @@ import numpy as np
 from datetime import datetime, timedelta
 import json
 import os
+import config
 
 
 class DayTradingAlgorithm:
@@ -95,7 +96,7 @@ class DayTradingAlgorithm:
         
         with open(self.ALGORITHM_FILE, 'w') as f:
             json.dump(safe_dict, f, indent=2)
-        print(f"✓ Algorithm saved to {self.ALGORITHM_FILE} ({len(algorithm_dict)} symbols)")
+        print(f"[OK] Algorithm saved to {self.ALGORITHM_FILE} ({len(algorithm_dict)} symbols)")
 
     def load_algorithm(self):
         """Load trained algorithm from JSON file. Returns dict or None if file doesn't exist."""
@@ -105,7 +106,7 @@ class DayTradingAlgorithm:
         try:
             with open(self.ALGORITHM_FILE, 'r') as f:
                 algo_dict = json.load(f)
-            print(f"✓ Algorithm loaded from {self.ALGORITHM_FILE} ({len(algo_dict)} symbols)")
+            print(f"[OK] Algorithm loaded from {self.ALGORITHM_FILE} ({len(algo_dict)} symbols)")
             return algo_dict
         except Exception as e:
             print(f"Error loading algorithm: {e}")
@@ -128,11 +129,11 @@ class DayTradingAlgorithm:
             df = df_1m.sort_values('Date').copy()
             
             # Only proceed if we have daily volatility
-            if daily_patterns['annual_volatility'] < 0.1:
+            if daily_patterns['annual_volatility'] < config.MIN_VOLATILITY:
                 return None, None  # Too stable for day trading
             
             # Calculate 1-minute indicators
-            df['SMA5'] = df['Close'].rolling(window=5).mean()
+            df['SMA5'] = df['Close'].rolling(window=config.SMA_PERIOD).mean()
             df['SMA20'] = df['Close'].rolling(window=20).mean()
             
             # RSI on 1-minute
@@ -157,7 +158,7 @@ class DayTradingAlgorithm:
                 # Entry conditions: Buy dips in uptrend
                 if not in_trade and daily_patterns['in_uptrend']:
                     # Signal: Price pulls back (below SMA5) with oversold RSI
-                    if current['Close'] < current['SMA5'] and current['RSI'] < 35:
+                    if current['Close'] < current['SMA5'] and current['RSI'] < config.RSI_OVERSOLD_THRESHOLD:
                         entry_price = current['Close']
                         entry_idx = i
                         in_trade = True
@@ -165,11 +166,23 @@ class DayTradingAlgorithm:
                 
                 # Exit conditions
                 if in_trade:
-                    # Profit target: 0.5-1.5% gain
-                    profit_pct = ((current['Close'] - entry_price) / entry_price) * 100
+                    # Apply slippage and commission to entry price
+                    entry_price_with_costs = entry_price * (1 + config.SLIPPAGE_PCT / 100)
+                    
+                    # Add percentage-based commission (if > 0)
+                    if config.COMMISSION_PER_TRADE > 0:
+                        entry_price_with_costs *= (1 + config.COMMISSION_PER_TRADE)
+                    
+                    # Add flat rate commission (if > 0, convert to % of entry price)
+                    if config.COMMISSION_FLAT_RATE > 0:
+                        flat_rate_pct = config.COMMISSION_FLAT_RATE / entry_price
+                        entry_price_with_costs += flat_rate_pct * entry_price
+                    
+                    # Profit/loss calculation (accounting for costs)
+                    profit_pct = ((current['Close'] - entry_price_with_costs) / entry_price_with_costs) * 100
                     
                     # Take profit
-                    if profit_pct >= 0.8:
+                    if profit_pct >= config.PROFIT_TARGET_PCT:
                         trades.append({
                             'entry_time': df.iloc[entry_idx]['Date'],
                             'entry_price': entry_price,
@@ -181,8 +194,8 @@ class DayTradingAlgorithm:
                         })
                         in_trade = False
                     
-                    # Stop loss: -0.5% loss
-                    elif profit_pct <= -0.5:
+                    # Stop loss
+                    elif profit_pct <= -config.STOP_LOSS_PCT:
                         trades.append({
                             'entry_time': df.iloc[entry_idx]['Date'],
                             'entry_price': entry_price,
@@ -194,8 +207,8 @@ class DayTradingAlgorithm:
                         })
                         in_trade = False
                     
-                    # Time-based exit: close at 4% daily move or 60 minutes
-                    elif (i - entry_idx) > 60 or abs(profit_pct) > 2.0:
+                    # Time-based exit
+                    elif (i - entry_idx) > config.MAX_HOLD_TIME_MINUTES or abs(profit_pct) > config.LARGE_MOVE_EXIT_PCT:
                         trades.append({
                             'entry_time': df.iloc[entry_idx]['Date'],
                             'entry_price': entry_price,
@@ -203,7 +216,7 @@ class DayTradingAlgorithm:
                             'exit_price': current['Close'],
                             'profit_pct': profit_pct,
                             'hold_minutes': i - entry_idx,
-                            'exit_reason': 'Time Exit' if (i - entry_idx) > 60 else 'Large Move',
+                            'exit_reason': 'Time Exit' if (i - entry_idx) > config.MAX_HOLD_TIME_MINUTES else 'Large Move',
                         })
                         in_trade = False
             
@@ -246,18 +259,38 @@ def main():
     print("Train: 10 years daily data | Test: Last 7 days 1-minute data")
     print("=" * 90)
     
+    # Display active configuration
+    print("\nCONFIG PARAMETERS:")
+    print("-" * 90)
+    print(f"Entry Signal:")
+    print(f"  RSI Oversold Threshold: {config.RSI_OVERSOLD_THRESHOLD}")
+    print(f"  SMA Period: {config.SMA_PERIOD} minutes")
+    print(f"\nExit Rules:")
+    print(f"  Profit Target: +{config.PROFIT_TARGET_PCT}%")
+    print(f"  Stop Loss: -{config.STOP_LOSS_PCT}%")
+    print(f"  Max Hold Time: {config.MAX_HOLD_TIME_MINUTES} minutes")
+    print(f"  Large Move Exit: {config.LARGE_MOVE_EXIT_PCT}%")
+    print(f"\nTrading Hours: {config.TRADING_START_HOUR}:{config.TRADING_START_MINUTE:02d} - {config.TRADING_END_HOUR}:{config.TRADING_END_MINUTE:02d}")
+    print(f"\nCosts & Slippage:")
+    print(f"  Commission: {config.COMMISSION_PER_TRADE * 100:.3f}% per trade")
+    print(f"  Flat Rate: ${config.COMMISSION_FLAT_RATE:.2f} per trade")
+    print(f"  Slippage: {config.SLIPPAGE_PCT:.3f}%")
+    print("=" * 90)
+    
     # Check if algorithm is already trained and available
     loaded_algo = algo.load_algorithm()
     
     if loaded_algo is not None:
-        print("\nUsingexisting trained algorithm from file.")
-        use_loaded = input("Press ENTER to use existing algorithm, or type 'retrain' to retrain: ").strip().lower()
-        if use_loaded != 'retrain':
-            algorithm_dict = loaded_algo
-            skip_training = True
-        else:
+        print("\nUsing existing trained algorithm from file.")
+        # Check command line args for auto-skip prompt
+        retrain_mode = '--retrain' in sys.argv
+        if retrain_mode:
+            print("(Retraining mode enabled via --retrain flag)")
             algorithm_dict = {}
             skip_training = False
+        else:
+            algorithm_dict = loaded_algo
+            skip_training = True
     else:
         print("\nNo existing algorithm found. Training from daily data...")
         algorithm_dict = {}
@@ -313,8 +346,10 @@ def main():
         # Backtest
         trades_df, stats = algo.backtest_intraday_trades(df_1m, daily_patterns)
         
-        if stats is None or stats['total_trades'] < 3:
+        if stats is None or stats['total_trades'] < config.MIN_TRADES_TO_REPORT:
             continue
+        
+        print(f"  [{len(results)+1}] {symbol}: {stats['total_trades']} trades, {stats['win_rate']:.1f}% win rate, {stats['total_pnl_pct']:+.2f}% P&L", flush=True)
         
         results.append({
             'symbol': symbol,
