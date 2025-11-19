@@ -40,4 +40,3 @@ Thumbs.db
 .venv_old/
 *.pyc
 cache_summary.csv
-data/

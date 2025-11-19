@@ -1,0 +1,1248 @@
+{
+  "AAPL_daily": {
+    "cached_date": "2025-11-19T12:58:37.861278",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "AAPL_daily.parquet"
+  },
+  "ABBV_daily": {
+    "cached_date": "2025-11-19T12:58:38.991740",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "ABBV_daily.parquet"
+  },
+  "ABT_daily": {
+    "cached_date": "2025-11-19T12:58:39.941789",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "ABT_daily.parquet"
+  },
+  "ADBE_daily": {
+    "cached_date": "2025-11-19T12:58:40.841166",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "ADBE_daily.parquet"
+  },
+  "AMD_daily": {
+    "cached_date": "2025-11-19T12:58:41.861959",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "AMD_daily.parquet"
+  },
+  "AMGN_daily": {
+    "cached_date": "2025-11-19T12:58:42.804201",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "AMGN_daily.parquet"
+  },
+  "AMP_daily": {
+    "cached_date": "2025-11-19T12:58:43.996529",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "AMP_daily.parquet"
+  },
+  "AMZN_daily": {
+    "cached_date": "2025-11-19T12:58:45.632447",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "AMZN_daily.parquet"
+  },
+  "AXP_daily": {
+    "cached_date": "2025-11-19T12:58:47.023445",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "AXP_daily.parquet"
+  },
+  "BA_daily": {
+    "cached_date": "2025-11-19T12:58:48.193083",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "BA_daily.parquet"
+  },
+  "BAC_daily": {
+    "cached_date": "2025-11-19T12:58:49.432436",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "BAC_daily.parquet"
+  },
+  "BDX_daily": {
+    "cached_date": "2025-11-19T12:58:50.635471",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "BDX_daily.parquet"
+  },
+  "BLK_daily": {
+    "cached_date": "2025-11-19T12:58:51.627492",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "BLK_daily.parquet"
+  },
+  "CAT_daily": {
+    "cached_date": "2025-11-19T12:58:53.933964",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "CAT_daily.parquet"
+  },
+  "CB_daily": {
+    "cached_date": "2025-11-19T12:58:54.890919",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "CB_daily.parquet"
+  },
+  "CDNS_daily": {
+    "cached_date": "2025-11-19T12:58:55.811527",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "CDNS_daily.parquet"
+  },
+  "CMCSA_daily": {
+    "cached_date": "2025-11-19T12:58:56.892839",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "CMCSA_daily.parquet"
+  },
+  "CME_daily": {
+    "cached_date": "2025-11-19T12:58:57.935468",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "CME_daily.parquet"
+  },
+  "COP_daily": {
+    "cached_date": "2025-11-19T12:58:59.009976",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "COP_daily.parquet"
+  },
+  "COST_daily": {
+    "cached_date": "2025-11-19T12:59:00.095834",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "COST_daily.parquet"
+  },
+  "CRM_daily": {
+    "cached_date": "2025-11-19T12:59:01.059116",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "CRM_daily.parquet"
+  },
+  "CRWD_daily": {
+    "cached_date": "2025-11-19T12:59:02.130551",
+    "rows": 1620,
+    "start_date": "2019-06-12 00:00:00-04:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "CRWD_daily.parquet"
+  },
+  "CVX_daily": {
+    "cached_date": "2025-11-19T12:59:04.241618",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "CVX_daily.parquet"
+  },
+  "DDOG_daily": {
+    "cached_date": "2025-11-19T12:59:05.159305",
+    "rows": 1551,
+    "start_date": "2019-09-19 00:00:00-04:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "DDOG_daily.parquet"
+  },
+  "DE_daily": {
+    "cached_date": "2025-11-19T12:59:06.269922",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "DE_daily.parquet"
+  },
+  "DIS_daily": {
+    "cached_date": "2025-11-19T12:59:07.408992",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "DIS_daily.parquet"
+  },
+  "DUK_daily": {
+    "cached_date": "2025-11-19T12:59:09.297140",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "DUK_daily.parquet"
+  },
+  "DXCM_daily": {
+    "cached_date": "2025-11-19T12:59:10.240097",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "DXCM_daily.parquet"
+  },
+  "FOX_daily": {
+    "cached_date": "2025-11-19T12:59:11.233629",
+    "rows": 1683,
+    "start_date": "2019-03-13 00:00:00-04:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "FOX_daily.parquet"
+  },
+  "GE_daily": {
+    "cached_date": "2025-11-19T12:59:12.517107",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "GE_daily.parquet"
+  },
+  "GILD_daily": {
+    "cached_date": "2025-11-19T12:59:13.563080",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "GILD_daily.parquet"
+  },
+  "GOOGL_daily": {
+    "cached_date": "2025-11-19T12:59:14.547151",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "GOOGL_daily.parquet"
+  },
+  "GS_daily": {
+    "cached_date": "2025-11-19T12:59:15.595762",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "GS_daily.parquet"
+  },
+  "HD_daily": {
+    "cached_date": "2025-11-19T12:59:16.644344",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "HD_daily.parquet"
+  },
+  "HON_daily": {
+    "cached_date": "2025-11-19T12:59:17.812307",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "HON_daily.parquet"
+  },
+  "INTC_daily": {
+    "cached_date": "2025-11-19T12:59:18.899273",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "INTC_daily.parquet"
+  },
+  "INTU_daily": {
+    "cached_date": "2025-11-19T12:59:19.991545",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "INTU_daily.parquet"
+  },
+  "ISRG_daily": {
+    "cached_date": "2025-11-19T12:59:20.963845",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "ISRG_daily.parquet"
+  },
+  "ITT_daily": {
+    "cached_date": "2025-11-19T12:59:21.991795",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "ITT_daily.parquet"
+  },
+  "JNJ_daily": {
+    "cached_date": "2025-11-19T12:59:23.002702",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "JNJ_daily.parquet"
+  },
+  "JPM_daily": {
+    "cached_date": "2025-11-19T12:59:23.991600",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "JPM_daily.parquet"
+  },
+  "KO_daily": {
+    "cached_date": "2025-11-19T12:59:25.005465",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "KO_daily.parquet"
+  },
+  "LLY_daily": {
+    "cached_date": "2025-11-19T12:59:26.109571",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "LLY_daily.parquet"
+  },
+  "LMT_daily": {
+    "cached_date": "2025-11-19T12:59:27.160269",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "LMT_daily.parquet"
+  },
+  "LOW_daily": {
+    "cached_date": "2025-11-19T12:59:28.192229",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "LOW_daily.parquet"
+  },
+  "MA_daily": {
+    "cached_date": "2025-11-19T12:59:29.189482",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "MA_daily.parquet"
+  },
+  "MCD_daily": {
+    "cached_date": "2025-11-19T12:59:30.231105",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "MCD_daily.parquet"
+  },
+  "META_daily": {
+    "cached_date": "2025-11-19T12:59:31.388529",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "META_daily.parquet"
+  },
+  "MKL_daily": {
+    "cached_date": "2025-11-19T12:59:32.312982",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "MKL_daily.parquet"
+  },
+  "MMC_daily": {
+    "cached_date": "2025-11-19T12:59:33.360582",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "MMC_daily.parquet"
+  },
+  "MPC_daily": {
+    "cached_date": "2025-11-19T12:59:34.361584",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "MPC_daily.parquet"
+  },
+  "MRK_daily": {
+    "cached_date": "2025-11-19T12:59:35.401891",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "MRK_daily.parquet"
+  },
+  "MS_daily": {
+    "cached_date": "2025-11-19T12:59:36.419601",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "MS_daily.parquet"
+  },
+  "MSFT_daily": {
+    "cached_date": "2025-11-19T12:59:37.491471",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "MSFT_daily.parquet"
+  },
+  "NEE_daily": {
+    "cached_date": "2025-11-19T12:59:38.595629",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "NEE_daily.parquet"
+  },
+  "NFLX_daily": {
+    "cached_date": "2025-11-19T12:59:39.817393",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "NFLX_daily.parquet"
+  },
+  "NKE_daily": {
+    "cached_date": "2025-11-19T12:59:41.023085",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "NKE_daily.parquet"
+  },
+  "NOW_daily": {
+    "cached_date": "2025-11-19T12:59:41.982735",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "NOW_daily.parquet"
+  },
+  "NVDA_daily": {
+    "cached_date": "2025-11-19T12:59:43.095613",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "NVDA_daily.parquet"
+  },
+  "OKTA_daily": {
+    "cached_date": "2025-11-19T12:59:44.187192",
+    "rows": 2167,
+    "start_date": "2017-04-07 00:00:00-04:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "OKTA_daily.parquet"
+  },
+  "PCTY_daily": {
+    "cached_date": "2025-11-19T12:59:46.132467",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "PCTY_daily.parquet"
+  },
+  "PEP_daily": {
+    "cached_date": "2025-11-19T12:59:47.394264",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "PEP_daily.parquet"
+  },
+  "PFE_daily": {
+    "cached_date": "2025-11-19T12:59:48.457933",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "PFE_daily.parquet"
+  },
+  "PG_daily": {
+    "cached_date": "2025-11-19T12:59:49.546970",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "PG_daily.parquet"
+  },
+  "PSX_daily": {
+    "cached_date": "2025-11-19T12:59:50.610960",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "PSX_daily.parquet"
+  },
+  "QCOM_daily": {
+    "cached_date": "2025-11-19T12:59:51.562381",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "QCOM_daily.parquet"
+  },
+  "RTX_daily": {
+    "cached_date": "2025-11-19T12:59:52.644173",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "RTX_daily.parquet"
+  },
+  "SBUX_daily": {
+    "cached_date": "2025-11-19T12:59:53.714351",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "SBUX_daily.parquet"
+  },
+  "SCHW_daily": {
+    "cached_date": "2025-11-19T12:59:54.812125",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "SCHW_daily.parquet"
+  },
+  "SLB_daily": {
+    "cached_date": "2025-11-19T12:59:56.020450",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "SLB_daily.parquet"
+  },
+  "SNPS_daily": {
+    "cached_date": "2025-11-19T12:59:57.095530",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "SNPS_daily.parquet"
+  },
+  "AAPL_1m": {
+    "cached_date": "2025-11-19T12:58:38.078897",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "AAPL_1m.parquet"
+  },
+  "ABBV_1m": {
+    "cached_date": "2025-11-19T12:58:39.144467",
+    "rows": 1949,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "ABBV_1m.parquet"
+  },
+  "ABT_1m": {
+    "cached_date": "2025-11-19T12:58:40.063027",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "ABT_1m.parquet"
+  },
+  "ADBE_1m": {
+    "cached_date": "2025-11-19T12:58:40.991752",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "ADBE_1m.parquet"
+  },
+  "AMD_1m": {
+    "cached_date": "2025-11-19T12:58:42.038573",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "AMD_1m.parquet"
+  },
+  "AMGN_1m": {
+    "cached_date": "2025-11-19T12:58:43.087205",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "AMGN_1m.parquet"
+  },
+  "AMP_1m": {
+    "cached_date": "2025-11-19T12:58:44.256448",
+    "rows": 1818,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "AMP_1m.parquet"
+  },
+  "AMZN_1m": {
+    "cached_date": "2025-11-19T12:58:46.131749",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "AMZN_1m.parquet"
+  },
+  "AXP_1m": {
+    "cached_date": "2025-11-19T12:58:47.193088",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "AXP_1m.parquet"
+  },
+  "BA_1m": {
+    "cached_date": "2025-11-19T12:58:48.410474",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "BA_1m.parquet"
+  },
+  "BAC_1m": {
+    "cached_date": "2025-11-19T12:58:49.773501",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "BAC_1m.parquet"
+  },
+  "BDX_1m": {
+    "cached_date": "2025-11-19T12:58:50.804258",
+    "rows": 1933,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "BDX_1m.parquet"
+  },
+  "BLK_1m": {
+    "cached_date": "2025-11-19T12:58:51.902111",
+    "rows": 1949,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "BLK_1m.parquet"
+  },
+  "CAT_1m": {
+    "cached_date": "2025-11-19T12:58:54.063114",
+    "rows": 1949,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "CAT_1m.parquet"
+  },
+  "CB_1m": {
+    "cached_date": "2025-11-19T12:58:55.034484",
+    "rows": 1932,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "CB_1m.parquet"
+  },
+  "CDNS_1m": {
+    "cached_date": "2025-11-19T12:58:56.072654",
+    "rows": 1942,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "CDNS_1m.parquet"
+  },
+  "CMCSA_1m": {
+    "cached_date": "2025-11-19T12:58:57.043158",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "CMCSA_1m.parquet"
+  },
+  "CME_1m": {
+    "cached_date": "2025-11-19T12:58:58.047223",
+    "rows": 1933,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "CME_1m.parquet"
+  },
+  "COP_1m": {
+    "cached_date": "2025-11-19T12:58:59.273389",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "COP_1m.parquet"
+  },
+  "COST_1m": {
+    "cached_date": "2025-11-19T12:59:00.273394",
+    "rows": 1946,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "COST_1m.parquet"
+  },
+  "CRM_1m": {
+    "cached_date": "2025-11-19T12:59:01.344079",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "CRM_1m.parquet"
+  },
+  "CRWD_1m": {
+    "cached_date": "2025-11-19T12:59:02.263945",
+    "rows": 1939,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "CRWD_1m.parquet"
+  },
+  "CVX_1m": {
+    "cached_date": "2025-11-19T12:59:04.389660",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "CVX_1m.parquet"
+  },
+  "DDOG_1m": {
+    "cached_date": "2025-11-19T12:59:05.368717",
+    "rows": 1946,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "DDOG_1m.parquet"
+  },
+  "DE_1m": {
+    "cached_date": "2025-11-19T12:59:06.436158",
+    "rows": 1909,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "DE_1m.parquet"
+  },
+  "DIS_1m": {
+    "cached_date": "2025-11-19T12:59:07.615939",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "DIS_1m.parquet"
+  },
+  "DUK_1m": {
+    "cached_date": "2025-11-19T12:59:09.487807",
+    "rows": 1946,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "DUK_1m.parquet"
+  },
+  "DXCM_1m": {
+    "cached_date": "2025-11-19T12:59:10.433256",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "DXCM_1m.parquet"
+  },
+  "FOX_1m": {
+    "cached_date": "2025-11-19T12:59:11.506607",
+    "rows": 1886,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "FOX_1m.parquet"
+  },
+  "GE_1m": {
+    "cached_date": "2025-11-19T12:59:12.797196",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "GE_1m.parquet"
+  },
+  "GILD_1m": {
+    "cached_date": "2025-11-19T12:59:13.761177",
+    "rows": 1948,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "GILD_1m.parquet"
+  },
+  "GOOGL_1m": {
+    "cached_date": "2025-11-19T12:59:14.741568",
+    "rows": 1948,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "GOOGL_1m.parquet"
+  },
+  "GS_1m": {
+    "cached_date": "2025-11-19T12:59:15.784378",
+    "rows": 1949,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "GS_1m.parquet"
+  },
+  "HD_1m": {
+    "cached_date": "2025-11-19T12:59:16.871645",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "HD_1m.parquet"
+  },
+  "HON_1m": {
+    "cached_date": "2025-11-19T12:59:18.008420",
+    "rows": 1933,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "HON_1m.parquet"
+  },
+  "INTC_1m": {
+    "cached_date": "2025-11-19T12:59:19.224495",
+    "rows": 1948,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "INTC_1m.parquet"
+  },
+  "INTU_1m": {
+    "cached_date": "2025-11-19T12:59:20.202094",
+    "rows": 1936,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "INTU_1m.parquet"
+  },
+  "ISRG_1m": {
+    "cached_date": "2025-11-19T12:59:21.141356",
+    "rows": 1944,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "ISRG_1m.parquet"
+  },
+  "ITT_1m": {
+    "cached_date": "2025-11-19T12:59:22.133394",
+    "rows": 1151,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "ITT_1m.parquet"
+  },
+  "JNJ_1m": {
+    "cached_date": "2025-11-19T12:59:23.140543",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "JNJ_1m.parquet"
+  },
+  "JPM_1m": {
+    "cached_date": "2025-11-19T12:59:24.159910",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "JPM_1m.parquet"
+  },
+  "KO_1m": {
+    "cached_date": "2025-11-19T12:59:25.190970",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "KO_1m.parquet"
+  },
+  "LLY_1m": {
+    "cached_date": "2025-11-19T12:59:26.320094",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "LLY_1m.parquet"
+  },
+  "LMT_1m": {
+    "cached_date": "2025-11-19T12:59:27.313659",
+    "rows": 1941,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "LMT_1m.parquet"
+  },
+  "LOW_1m": {
+    "cached_date": "2025-11-19T12:59:28.347183",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "LOW_1m.parquet"
+  },
+  "MA_1m": {
+    "cached_date": "2025-11-19T12:59:29.342169",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "MA_1m.parquet"
+  },
+  "MCD_1m": {
+    "cached_date": "2025-11-19T12:59:30.491400",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "MCD_1m.parquet"
+  },
+  "META_1m": {
+    "cached_date": "2025-11-19T12:59:31.533186",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "META_1m.parquet"
+  },
+  "MKL_1m": {
+    "cached_date": "2025-11-19T12:59:32.507417",
+    "rows": 1338,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "MKL_1m.parquet"
+  },
+  "MMC_1m": {
+    "cached_date": "2025-11-19T12:59:33.547046",
+    "rows": 1919,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "MMC_1m.parquet"
+  },
+  "MPC_1m": {
+    "cached_date": "2025-11-19T12:59:34.520448",
+    "rows": 1888,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "MPC_1m.parquet"
+  },
+  "MRK_1m": {
+    "cached_date": "2025-11-19T12:59:35.588892",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "MRK_1m.parquet"
+  },
+  "MS_1m": {
+    "cached_date": "2025-11-19T12:59:36.588911",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "MS_1m.parquet"
+  },
+  "MSFT_1m": {
+    "cached_date": "2025-11-19T12:59:37.723256",
+    "rows": 1948,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "MSFT_1m.parquet"
+  },
+  "NEE_1m": {
+    "cached_date": "2025-11-19T12:59:38.935899",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "NEE_1m.parquet"
+  },
+  "NFLX_1m": {
+    "cached_date": "2025-11-19T12:59:40.162819",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "NFLX_1m.parquet"
+  },
+  "NKE_1m": {
+    "cached_date": "2025-11-19T12:59:41.164570",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "NKE_1m.parquet"
+  },
+  "NOW_1m": {
+    "cached_date": "2025-11-19T12:59:42.257312",
+    "rows": 1947,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "NOW_1m.parquet"
+  },
+  "NVDA_1m": {
+    "cached_date": "2025-11-19T12:59:43.434612",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "NVDA_1m.parquet"
+  },
+  "OKTA_1m": {
+    "cached_date": "2025-11-19T12:59:44.447593",
+    "rows": 1878,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "OKTA_1m.parquet"
+  },
+  "PCTY_1m": {
+    "cached_date": "2025-11-19T12:59:46.423315",
+    "rows": 1176,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "PCTY_1m.parquet"
+  },
+  "PEP_1m": {
+    "cached_date": "2025-11-19T12:59:47.534243",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "PEP_1m.parquet"
+  },
+  "PFE_1m": {
+    "cached_date": "2025-11-19T12:59:48.646736",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "PFE_1m.parquet"
+  },
+  "PG_1m": {
+    "cached_date": "2025-11-19T12:59:49.741395",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "PG_1m.parquet"
+  },
+  "PSX_1m": {
+    "cached_date": "2025-11-19T12:59:50.777950",
+    "rows": 1932,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "PSX_1m.parquet"
+  },
+  "QCOM_1m": {
+    "cached_date": "2025-11-19T12:59:51.741449",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "QCOM_1m.parquet"
+  },
+  "RTX_1m": {
+    "cached_date": "2025-11-19T12:59:52.784668",
+    "rows": 1938,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "RTX_1m.parquet"
+  },
+  "SBUX_1m": {
+    "cached_date": "2025-11-19T12:59:53.859867",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "SBUX_1m.parquet"
+  },
+  "SCHW_1m": {
+    "cached_date": "2025-11-19T12:59:55.130297",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "SCHW_1m.parquet"
+  },
+  "SLB_1m": {
+    "cached_date": "2025-11-19T12:59:56.315629",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "SLB_1m.parquet"
+  },
+  "SNPS_1m": {
+    "cached_date": "2025-11-19T12:59:57.323144",
+    "rows": 1942,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "SNPS_1m.parquet"
+  },
+  "SO_daily": {
+    "cached_date": "2025-11-19T12:59:58.159228",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "SO_daily.parquet"
+  },
+  "SO_1m": {
+    "cached_date": "2025-11-19T12:59:58.335686",
+    "rows": 1948,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "SO_1m.parquet"
+  },
+  "SPGI_daily": {
+    "cached_date": "2025-11-19T12:59:59.224086",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "SPGI_daily.parquet"
+  },
+  "SPGI_1m": {
+    "cached_date": "2025-11-19T12:59:59.345515",
+    "rows": 1942,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "SPGI_1m.parquet"
+  },
+  "SSNC_daily": {
+    "cached_date": "2025-11-19T13:00:00.126757",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "SSNC_daily.parquet"
+  },
+  "SSNC_1m": {
+    "cached_date": "2025-11-19T13:00:00.273172",
+    "rows": 1656,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "SSNC_1m.parquet"
+  },
+  "T_daily": {
+    "cached_date": "2025-11-19T13:00:01.143888",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "T_daily.parquet"
+  },
+  "T_1m": {
+    "cached_date": "2025-11-19T13:00:01.331644",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "T_1m.parquet"
+  },
+  "TJX_daily": {
+    "cached_date": "2025-11-19T13:00:02.241120",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "TJX_daily.parquet"
+  },
+  "TJX_1m": {
+    "cached_date": "2025-11-19T13:00:02.491352",
+    "rows": 1949,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "TJX_1m.parquet"
+  },
+  "TM_daily": {
+    "cached_date": "2025-11-19T13:00:03.326559",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "TM_daily.parquet"
+  },
+  "TM_1m": {
+    "cached_date": "2025-11-19T13:00:03.491344",
+    "rows": 1057,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "TM_1m.parquet"
+  },
+  "TMO_daily": {
+    "cached_date": "2025-11-19T13:00:04.345505",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "TMO_daily.parquet"
+  },
+  "TMO_1m": {
+    "cached_date": "2025-11-19T13:00:04.491364",
+    "rows": 1940,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "TMO_1m.parquet"
+  },
+  "TSLA_daily": {
+    "cached_date": "2025-11-19T13:00:05.256361",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "TSLA_daily.parquet"
+  },
+  "TSLA_1m": {
+    "cached_date": "2025-11-19T13:00:05.489087",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "TSLA_1m.parquet"
+  },
+  "ULTA_daily": {
+    "cached_date": "2025-11-19T13:00:06.292153",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "ULTA_daily.parquet"
+  },
+  "ULTA_1m": {
+    "cached_date": "2025-11-19T13:00:06.489542",
+    "rows": 1639,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "ULTA_1m.parquet"
+  },
+  "UNH_daily": {
+    "cached_date": "2025-11-19T13:00:07.296901",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "UNH_daily.parquet"
+  },
+  "UNH_1m": {
+    "cached_date": "2025-11-19T13:00:07.463311",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "UNH_1m.parquet"
+  },
+  "V_daily": {
+    "cached_date": "2025-11-19T13:00:08.394137",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "V_daily.parquet"
+  },
+  "V_1m": {
+    "cached_date": "2025-11-19T13:00:08.543289",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "V_1m.parquet"
+  },
+  "VEEV_daily": {
+    "cached_date": "2025-11-19T13:00:09.289106",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "VEEV_daily.parquet"
+  },
+  "VEEV_1m": {
+    "cached_date": "2025-11-19T13:00:09.448775",
+    "rows": 1905,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "VEEV_1m.parquet"
+  },
+  "VRSN_daily": {
+    "cached_date": "2025-11-19T13:00:10.274615",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "VRSN_daily.parquet"
+  },
+  "VRSN_1m": {
+    "cached_date": "2025-11-19T13:00:10.434017",
+    "rows": 1783,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "VRSN_1m.parquet"
+  },
+  "VZ_daily": {
+    "cached_date": "2025-11-19T13:00:11.296097",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "VZ_daily.parquet"
+  },
+  "VZ_1m": {
+    "cached_date": "2025-11-19T13:00:11.507325",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "VZ_1m.parquet"
+  },
+  "WDAY_daily": {
+    "cached_date": "2025-11-19T13:00:12.270274",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "WDAY_daily.parquet"
+  },
+  "WDAY_1m": {
+    "cached_date": "2025-11-19T13:00:12.406618",
+    "rows": 1844,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "WDAY_1m.parquet"
+  },
+  "WFC_daily": {
+    "cached_date": "2025-11-19T13:00:13.415004",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "WFC_daily.parquet"
+  },
+  "WFC_1m": {
+    "cached_date": "2025-11-19T13:00:13.609843",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "WFC_1m.parquet"
+  },
+  "WMT_daily": {
+    "cached_date": "2025-11-19T13:00:14.458421",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "WMT_daily.parquet"
+  },
+  "WMT_1m": {
+    "cached_date": "2025-11-19T13:00:14.614797",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "WMT_1m.parquet"
+  },
+  "XOM_daily": {
+    "cached_date": "2025-11-19T13:00:15.578627",
+    "rows": 2512,
+    "start_date": "2015-11-23 00:00:00-05:00",
+    "end_date": "2025-11-18 00:00:00-05:00",
+    "parquet": "XOM_daily.parquet"
+  },
+  "XOM_1m": {
+    "cached_date": "2025-11-19T13:00:15.887133",
+    "rows": 1950,
+    "start_date": "2025-11-12 09:30:00-05:00",
+    "end_date": "2025-11-18 15:59:00-05:00",
+    "parquet": "XOM_1m.parquet"
+  }
+}
